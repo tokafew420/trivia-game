@@ -1,0 +1,6 @@
+# Specifies intentionally untracked files to ignore
+# https://git-scm.com/docs/gitignore
+
+/.vscode/
+/node_modules/
+/build/

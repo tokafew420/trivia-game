@@ -1,0 +1,210 @@
+html,
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding-top: 54px;
+  background-color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.navbar {
+  background-color: #0b1d36;
+}
+
+.categories-title,
+.questions-title,
+.question-difficulty {
+  color: #ffffff;
+}
+
+.category-container,
+.question-container {
+  padding: 2px;
+}
+
+.category-card,
+.question-card,
+.timer-card {
+  background-color: #1e3e6b;
+  border: #dddddd solid 6px;
+  border-radius: 4px;
+  height: 100%;
+  min-height: 150px;
+  margin: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.category-card:hover,
+.question-card:hover {
+  margin: 2px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.category-container.answered .category-card,
+.question-container.answered .question-card {
+  background-color: #951ead;
+  cursor: not-allowed;
+}
+
+.category-title,
+.question-title {
+  color: #ffffff;
+  font-size: 27px;
+  line-height: 100px;
+}
+
+.category-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #b72930;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: .25em .4em;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  width: 34px;
+  height: 34px;
+}
+
+.modal-content {
+  background-color: #1e3e6b;
+  color: #ffffff;
+}
+
+.modal-body {
+  background-color: #0b1d36;
+  color: #ffffff;
+}
+
+#question-modal .modal-body {
+  font-size: 36px;
+}
+
+#question-modal .question-text {
+  white-space: pre-wrap;
+}
+
+#question-modal #answer {
+  border: 1px solid #007bff;
+  border-radius: .25rem;
+  font-size: 28px;
+}
+
+#question-modal #answer-text {
+  white-space: pre-wrap;
+}
+
+#load-game-data-file {
+  width: 100%;
+}
+
+.loader-container {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  position: absolute;
+  padding: 200px;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+.loader {
+  border: 16px solid #c8c8c8;
+  border-radius: 50%;
+  border-top: 16px solid #1e28ad;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  -webkit-animation: spin .75s linear infinite;
+  animation: spin .75s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.timer-card {
+  width: 300px;
+  height: 370px;
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  z-index: 1090;
+}
+
+.timer {
+  width: 250px;
+  height: 250px;
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  background-color: #1fbba6;
+  border: 2px solid #1fbba6;
+  text-align: center;
+}
+
+.timer .block {
+  position: absolute;
+  background: #fff;
+  width: 220px;
+  height: 220px;
+  display: block;
+  border-radius: 50%;
+  top: 13px;
+  left: 13px;
+}
+
+.timer .block.danger {
+  animation-name: timer-danger;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes timer-danger {
+  0% {
+    background-color: #b72930;
+  }
+  50% {
+    background-color: #ffffff;
+  }
+  100% {
+    background-color: #b72930;
+  }
+}
+
+#time {
+  font-size: 3em;
+  position: absolute;
+  top: 35%;
+  left: 33%;
+  color: lighten(#000, 60%);
+}

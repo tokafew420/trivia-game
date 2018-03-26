@@ -1,0 +1,744 @@
+[
+  {
+    "category": "Algorithms",
+    "difficulty": "Easy",
+    "question": "What is the time complexity of a bubble sort?",
+    "answer": "O(n^2)",
+    "notes": ""
+  },
+  {
+    "category": "Algorithms",
+    "difficulty": "Easy",
+    "question": "If your data is sorted, you can use a binary search algorithm which halves the search set after each iteration.\n\nWhat is the time complexity of a binary search?",
+    "answer": "O(log n)",
+    "notes": ""
+  },
+  {
+    "category": "Algorithms",
+    "difficulty": "Easy",
+    "question": "Given the following binary tree graph, what is the lettered output when doing a breadth-first search?\n      A\n     /   \\\n   B    C\n  /   \\\nD    E",
+    "answer": "A, B, C, D, E",
+    "notes": ""
+  },
+  {
+    "category": "Algorithms",
+    "difficulty": "Normal",
+    "question": "In graph theory, Dijkstra's algorithm is used to find what?\n\nA) Path of least resistance\nB) Shortest Path\nC) Longest Path\nD) Cyclic Path",
+    "answer": "B) Shortest Path",
+    "notes": ""
+  },
+  {
+    "category": "Algorithms",
+    "difficulty": "Normal",
+    "question": "The A* (star) search algorithm uses what following technic to find the shortest path?\n\nA) Heuristics\nB) Divide and conquer\nC) Twilight sparkle magic\nD) Boundary relaxation",
+    "answer": "A) Heuristics",
+    "notes": ""
+  },
+  {
+    "category": "Algorithms",
+    "difficulty": "Normal",
+    "question": "Given the following binary tree graph, what is the lettered output when doing a depth-first search?\n      A\n     /   \\\n   B    C\n  /   \\\nD    E",
+    "answer": "A, B, D, E, C",
+    "notes": ""
+  },
+  {
+    "category": "Algorithms",
+    "difficulty": "Hard",
+    "question": "Given a Fibonacci function described as \nF(n) = F(n - 1) + F(n - 2), and the initial seed value F(0) = 0 and F(1) = 1, \nwhat is the result of F(6)?",
+    "answer": "F(0) = 0\nF(1) = 1\nF(2) = 1\nF(3) = 2\nF(4) = 3\nF(5) = 5\nanswer: F(6) = 8",
+    "notes": ""
+  },
+  {
+    "category": "Database",
+    "difficulty": "Easy",
+    "question": "Which is not an example of a SQL JOIN?\n\nA) INNER JOIN\nB) CROSS JOIN\nC) FULL JOIN\nD) UPPER JOIN",
+    "answer": "D) UPPER JOIN",
+    "notes": ""
+  },
+  {
+    "category": "Database",
+    "difficulty": "Normal",
+    "question": "In database programming, SQL is an acronym for what?",
+    "answer": "Structured Query Language",
+    "notes": ""
+  },
+  {
+    "category": "Database",
+    "difficulty": "Normal",
+    "question": "Which of the following is not a DBMS?\n\nA) MySQL\nB) Teradata\nC) Sybase\nD) Hadoop",
+    "answer": "D) Hadoop",
+    "notes": ""
+  },
+  {
+    "category": "Database",
+    "difficulty": "Hard",
+    "question": "Which SQL operator is used to distinctly combine the result-set of 2 or more SELECT statements?\n\nA) UNION\nB) UNION ALL\nC) INTERSECT\nD) EXCEPT",
+    "answer": "A) UNION",
+    "notes": ""
+  },
+  {
+    "category": "Design",
+    "difficulty": "Easy",
+    "question": "In a photo editing program, what do the letters RGB stand for?",
+    "answer": "Red, Green, & Blue",
+    "notes": ""
+  },
+  {
+    "category": "Design",
+    "difficulty": "Normal",
+    "question": "Which is not a responsive web UI framework?\n\nA) Bootstrap\nB) Pure\nC) Material Design\nD) Skeleton",
+    "answer": "C) Material Design",
+    "notes": ""
+  },
+  {
+    "category": "Design",
+    "difficulty": "Normal",
+    "question": "CSS files are used to define styles for a web site or application.\n\nWhat is CSS short for?",
+    "answer": "Cascading Style Sheet",
+    "notes": ""
+  },
+  {
+    "category": "Design",
+    "difficulty": "Hard",
+    "question": "The hex code #FFFF00 represents what color?",
+    "answer": "Yellow",
+    "notes": ""
+  },
+  {
+    "category": "Design",
+    "difficulty": "Hard",
+    "question": "The RGBA function is an extension to the RGB function that allows you to specify the opacity.\n\nWhat does the 'A' stand for?",
+    "answer": "alpha",
+    "notes": ""
+  },
+  {
+    "category": "Fundamentals",
+    "difficulty": "Easy",
+    "question": "One kilobyte is equal to how many bytes?",
+    "answer": 1024,
+    "notes": ""
+  },
+  {
+    "category": "Fundamentals",
+    "difficulty": "Easy",
+    "question": "How many bits are there in 1 byte?",
+    "answer": 8,
+    "notes": ""
+  },
+  {
+    "category": "Fundamentals",
+    "difficulty": "Easy",
+    "question": "A \"queue\" is what type of data structure?\n\nA) LIFO\nB) FIFO\nC) FICO\nD) PICO",
+    "answer": "B) FIFO",
+    "notes": ""
+  },
+  {
+    "category": "Fundamentals",
+    "difficulty": "Normal",
+    "question": "1,024 Gigabytes is equal to one what?",
+    "answer": "Terabyte",
+    "notes": ""
+  },
+  {
+    "category": "Fundamentals",
+    "difficulty": "Normal",
+    "question": "1024 bit is equal to how many byte?",
+    "answer": "128 Byte",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Created in 2009, what was the first decentralized cryptocurrency?",
+    "answer": "Bitcoin",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "What do you call the small image icons used to express emotions or ideas in digital communication?",
+    "answer": "Emoji",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "In computer science, what does \"GUI\" stand for?",
+    "answer": "Graphical user interface",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "What does HTTP stand for in a website address?",
+    "answer": "HyperText Transfer Protocol",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "'Linux' is an example of what?\n\nA) Software\nB) Application\nC) Operating System\nD) Browser",
+    "answer": "C) Operating System",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Which operating system is developed and used by Apple Inc?\n\nA) Windows\nB) Android\nC) iOS\nD) UNIX",
+    "answer": "C) iOS",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Mac Operating System is developed by which company?\n\nA) IBM\nB) Apple\nC) Microsoft\nD) Samsung",
+    "answer": "B) Apple",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "What is the total number of function keys in a computer keyboard?",
+    "answer": 12,
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Which company bought the popular video teleconferencing software 'Skype'?\n\nA) Google\nB) Facebook\nC) Oracle\nD) Microsoft",
+    "answer": "D) Microsoft",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "What is the limit of characters for a tweet on Twitter?",
+    "answer": 140,
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Easy",
+    "question": "Errors in computer programs are called?\n\nA) Follies\nB) Mistake\nC) Bugs\nD) Spam",
+    "answer": "C) Bugs",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "The companies HP, Microsoft, and Apple were all started in a what?",
+    "answer": "Garage",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "What was the name of the first electronic general-purpose computer?",
+    "answer": "ENIAC",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "Which one is the first search engine in internet?\n\nA) Google\nB) Archie\nC) Altavista\nD) Yahoo",
+    "answer": "B) Archie",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "Computer Hard Disk was first introduced in 1956 by\n\nA) Dell\nB) Apple\nC) Microsoft\nD) IBM",
+    "answer": "D) IBM",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "Which company first developed the Java programming language?\n\nA) Microsoft\nB) Bell Labs\nC) IBM\nD) Sun Microsystems",
+    "answer": "D) Sun Microsystems",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "In which year was the Microsoft company founded?\n\nA) 1972\nB) 1975\nC) 1980\nD) 1984",
+    "answer": "B) 1975",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "What is the acronym PDF short for?",
+    "answer": "Portable Document Format",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "Which company is the founder of Bluetooth?\n\nA) Ericsson\nB) IBM\nC) Apple\nD) Dell",
+    "answer": "A) Ericsson",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "What is the name of the founder of ‘Wikileaks’.",
+    "answer": "Julian Assange",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "IoT refers to\n\nA) Internet of Things\nB) Intranet of Teleservices\nC) International Organization of Teleservices\nD) Internet Organization of Telecommunication",
+    "answer": "A) Internet of Things",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "Unlike the IETF, the W3C organization is more focused on the application layer of the internet (ie: HTML, XML, etc.).\n\nWhat does W3C stand for?",
+    "answer": "World Wide Web Consortium",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Normal",
+    "question": "On Android, you can enable adb to communicate directly with the device from a PC.\n\nWhat does adb stand for?",
+    "answer": "Android Debug Bridge",
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Hard",
+    "question": "In what year was the first Apple computer released?",
+    "answer": 1976,
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Hard",
+    "question": "What year was Facebook founded?",
+    "answer": 2004,
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Hard",
+    "question": "CERN launched the very first website in what year?",
+    "answer": 1990,
+    "notes": ""
+  },
+  {
+    "category": "General",
+    "difficulty": "Hard",
+    "question": "Although few people know this organization, the IETF defines the standards and protocol used on the internet which plays a huge role in people's lives.\n\nWhat is the acronym IETF short for?",
+    "answer": "Internet Engineering Task Force",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Easy",
+    "question": "Regarding data storage, what does the acronym SSD stand for?",
+    "answer": "Solid State Drive",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Easy",
+    "question": "When referring to a computer monitor, what does the acronym LCD stand for?",
+    "answer": "Liquid Crystal Display",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Easy",
+    "question": "The CPU is a microprocessor that is commonly referred to as the brain of the computer.\n\nWhat is the acronym CPU short for?",
+    "answer": "Central processing Unit",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Easy",
+    "question": "When buying a computer, it's important to know how much RAM (aka Memory) is built-in.\n\nWhat is the acronym RAM short for?",
+    "answer": "Random Access Memory",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Easy",
+    "question": "Remember CD ROM? Unlike RAM, ROM is only for reading from, not writing to.\n\nWhat is the acronym short for?",
+    "answer": "Read-Only Memory",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Normal",
+    "question": "In regards to computer perpherials, UPS stands for\n\nA) Universal Power Supply\nB) Universal Power Source\nC) Uninterruptible Power Standby\nD) Uninterruptible Power Supply",
+    "answer": "D) Uninterruptible Power Supply",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Normal",
+    "question": "USB is the standard connector for devices in use today.\n\nWhat is the acronym USB short for?",
+    "answer": "Universal Serial Bus",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Hard",
+    "question": "Total number of pins in a traditional parallel port is?\n\nA) 5\nB) 14\nC) 25\nD) 27",
+    "answer": "C) 25",
+    "notes": ""
+  },
+  {
+    "category": "Hardware",
+    "difficulty": "Hard",
+    "question": "What is the total number of pins in a serial port?",
+    "answer": 9,
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Easy",
+    "question": "With reference to computer network, what does the acronym VPN mean?",
+    "answer": "Virtual Private Network",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Easy",
+    "question": "FTP is a means to send computer files from client to server.\n\nWhat is the acronym FTP short for?",
+    "answer": "File Transfer Protocol",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Easy",
+    "question": "IP addresses are assigned to devices which allows for the routing of data over networks (ie, the Internet).\n\nWhat is the acronym IP short for?",
+    "answer": "Internet Protocol",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Easy",
+    "question": "ISPs are the companies that brings the internet to your doorstep (ie, Verizon, Comcast, etc.)\n\nWhat is the acronym ISP short for?",
+    "answer": "Internet service provider",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Easy",
+    "question": "We use SMPT2GO as our provider to send emails to users.\n\nWhat is the acronym SMTP short for?",
+    "answer": "Simple Mail Transfer Protocol",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Easy",
+    "question": "Wi-Fi allows a user to connect to a network without being tied down.\n\nWhat is the Wi-Fi short for?",
+    "answer": "Wireless Fidelity",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "Which one is an example of a connectionless protocol?\n\nA) TCP\nB) IPX/SPX\nC) Frame Relay\nD) UDP",
+    "answer": "D) UDP",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "Number of bits used by the IPv6 address?",
+    "answer": "128 bit",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "Which one is the first web browser invented in 1990?\n\nA) Internet Explorer\nB) Mosaic\nC) Netscape Navigator\nD) Nexus",
+    "answer": "D) Nexus",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "Which protocol is used to received e-mail?\n\nA) SMTP\nB) POP3\nC) HTTP\nD) FTP",
+    "answer": "B) POP3",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "Also called the loopback address, the name 'localhost' commonly refers to this IP?",
+    "answer": "127.0.0.1",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "802.11 describes what type of network?\n\nA) Coaxial\nB) Wireless\nC) Fiber Optic\nD) Copper",
+    "answer": "B) Wireless",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "In networking, DHCP used to dynamically assign IP addresses to devices.\n\nWhat is the acronym DHCP short for?",
+    "answer": "Dynamic Host Configuration Protocol",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "The internet is made possible by DNS servers that can take a user friendly name (like www.tocite.net) and translate it to an IP address.\n\nIn terms of the protocol and standards, what is the acronym DNS short for?",
+    "answer": "Domain Name System",
+    "notes": "Will not accept Domain Name Server"
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "LAN is a computer network that interconnects devices within a limited surroundings such as your residence, school, or here at work.\n\nWhat is the acronym LAN short for?",
+    "answer": "Local area network",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "Unlike IP addresses, the device's MAC address is only used in the local network.\n\nWhat is the acronym MAC short for?",
+    "answer": "Will accept medium access control, media access control, or machine access control",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "An IP address is a 32-bit number, which theoretically allows for roughly 4 billion unique addresses. But as the internet grows, this is not enough. NAT is designed to allow more internet users using the finite set of IP addresses.\n\nWhat is the acronym NAT short for?",
+    "answer": "Network Address Translation",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "SSH is a cryptographic protocol for communication over unsecure networks.\n\nWhat is the SSH short for?",
+    "answer": "Secure shell",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "TCP is one of the main protocols of the internet. It complements the IP protocol and is commonly referred to as TCP/IP.\n\nWhat is the acronym TCP short for?",
+    "answer": "Transmission Control Protocol",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Normal",
+    "question": "SSL is a standard technology for establishing an encrypted link between the web server and the browser.\n\nWhat is the acrynom SSL short for?",
+    "answer": "Secure Sockets Layer",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Hard",
+    "question": "What is the port number of POP3?",
+    "answer": 110,
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Hard",
+    "question": "What is the port number of SMTP?",
+    "answer": 25,
+    "notes": "also accept 2525, or 587"
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Hard",
+    "question": "When setting up your wi-fi route, the SSID is the name of your access point. (ie, Upsafety CR).\n\nWhat is the acronym SSID short for?",
+    "answer": "Service set identifier (Wi-Fi)",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Hard",
+    "question": "Unlike TCP, UDP does not guarantee delivery, however it is more efficient and therefore useful for applications that can tolerate data loss (ie, video streaming).\n\nWhat is the acronym UDP short for?",
+    "answer": "User Datagram Protocol",
+    "notes": ""
+  },
+  {
+    "category": "Networking",
+    "difficulty": "Hard",
+    "question": "TLS is the successor to SSL, with improved security measures.\n\nWhat is the acronym TLS short for?",
+    "answer": "Transport Layer Security",
+    "notes": ""
+  },
+  {
+    "category": "On The Internet",
+    "difficulty": "Easy",
+    "question": "When surfing the web, always ensure that the site you're visiting is using HTTPS. Unlike plain jane HTTP, HTTPS is secured by end to end encryption.\n\nWhat is the acronym HTTPS short for?",
+    "answer": "HyperText Transfer Protocol Secure",
+    "notes": ""
+  },
+  {
+    "category": "On The Internet",
+    "difficulty": "Easy",
+    "question": "Commonly used as a prefix for domain names, what is the acronym www short for?",
+    "answer": "World Wide Web",
+    "notes": ""
+  },
+  {
+    "category": "On The Internet",
+    "difficulty": "Easy",
+    "question": "The clickable text that takes you from one web page to another is call what?",
+    "answer": "Hyper Link",
+    "notes": ""
+  },
+  {
+    "category": "On The Internet",
+    "difficulty": "Normal",
+    "question": "URL stands for\n\nA) Uniform Resource Locator\nB) Universal Resource Locator\nC) Unique Resource Locator\nD) Uniform Reserve Locator",
+    "answer": "A) Uniform Resource Locator",
+    "notes": ""
+  },
+  {
+    "category": "On The Internet",
+    "difficulty": "Hard",
+    "question": "CORS is a mechanism that allows restricted resources on a web page to be requested from another domain outside the current site domain.\n\nWhat is the acronym CORS short for?",
+    "answer": "Cross-Origin Resource Sharing",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Easy",
+    "question": "Computers use which type of number system to calculate and to store data?\n\nA) Decimal\nB) Octal\nC) Binary\nD) Hexadecimal",
+    "answer": "C) Binary",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Normal",
+    "question": "Which one is the first high level programming language?\n\nA) C\nB) COBOL\nC) FORTRAN\nD) C++",
+    "answer": "C) FORTRAN",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Normal",
+    "question": "Which one programming language is exclusively used for artificial intelligence?\n\nA) C\nB) Java\nC) Prolog\nD) COBOL",
+    "answer": "C) Prolog",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Normal",
+    "question": "Which one of the followings is a programming language?\n\nA) HTTP\nB) HTML\nC) Haskell\nD) FTP",
+    "answer": "C) Haskell",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Normal",
+    "question": "What is the name of the computer program that is used to convert a written, human readable program into an intermediate assembly language?",
+    "answer": "Compiler",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Normal",
+    "question": "Which one of the following is not a computer language?\n\nA) JAVA\nB) JavaScript\nC) Expresso\nD) CoffeeScript",
+    "answer": "C) Expresso",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Normal",
+    "question": "In programming, an API is code that allows 2 or more programs to communicate with each other.\n\nWhat is the acronym API short for?",
+    "answer": "Application Programming Interface",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Hard",
+    "question": "ASCII has how many codes?",
+    "answer": 128,
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Hard",
+    "question": "A CRC is an error detection code that is used to verify raw data integrity.\n\nWhat is the acronym CRC short for?",
+    "answer": "Cyclical redundancy check",
+    "notes": ""
+  },
+  {
+    "category": "Programming",
+    "difficulty": "Hard",
+    "question": "AJAX is a web technology that allows web clients to communicate with the server without interfering with the current state of the page.\n\nWhat is the acronym AJAX short fort?",
+    "answer": "Asynchronous JavaScript And XML",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Easy",
+    "question": "Mark Zuckerberg was one of the founders of what social networking site?",
+    "answer": "Facebook",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Easy",
+    "question": "What Harvard dropout co-founded Microsoft?",
+    "answer": "Bill Gates",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Easy",
+    "question": "Linus Torvalds develop which operating system?\n\nA) Windows\nB) Mac OS\nC) UNIX\nD) Linux",
+    "answer": "D) Linux",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Normal",
+    "question": "Steve Jobs, Steve Wozniak, and Ronald Wayne founded what company in 1976?",
+    "answer": "Apple Computer, Inc.",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Normal",
+    "question": "Who created the C programming Language?\n\nA) Ken Thompson\nB) Dennis Ritchie\nC) Robin Milner\nD) Frieder Nake",
+    "answer": "B) Dennis Ritchie",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Normal",
+    "question": "Who is known as the founder of IBM Company?\n\nA) Steve Jobs\nB) Thomas J. Watson\nC) Nolan Bushnell\nD) Alan Turing",
+    "answer": "B) Thomas J. Watson",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Hard",
+    "question": "Who is known as the father of internet?\n\nA) Alan Perlis\nB) Jean E. Sammet\nC) Vint Cerf\nD) Steve Lawrence",
+    "answer": "C) Vint Cerf",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Hard",
+    "question": "Who developed Java Programming Language?\n\nA) James Gosling\nB) Douglas Engelbart\nC) Edmund M. Clarke\nD) James D. Foley",
+    "answer": "A) James Gosling",
+    "notes": ""
+  },
+  {
+    "category": "Who's Who",
+    "difficulty": "Hard",
+    "question": "Who first developed QWERTY keyboard used in computers and phones?\n\nA) Raphael Finkel\nB) Wim Ebbinkhuijsen\nC) Shafi Goldwasser\nD) Christopher Latham Sholes",
+    "answer": "D) Christopher Latham Sholes",
+    "notes": ""
+  }
+]

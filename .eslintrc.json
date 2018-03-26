@@ -1,0 +1,10 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 5
+  },
+  "env": {
+    "node": true,
+    "jasmine": true
+  },
+  "rules": {}
+}

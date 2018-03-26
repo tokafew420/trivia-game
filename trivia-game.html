@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Trivia Game</title>
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="trivia-game.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Trivia Game</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link load-data-link" href="#" data-toggle="modal" data-target="#load-game-data-modal">Load Game Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link reset-link" href="#">Reset</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#options-modal">Options</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Categories -->
+    <div class="container categories-container">
+
+        <h1 class="my-4 text-center categories-title">Select Category</h1>
+
+        <div class="row text-center align-middle categories">
+        </div>
+
+    </div>
+
+    <!-- Categories -->
+    <div class="container questions-container">
+
+        <h1 class="my-4 text-center questions-title">Select Category</h1>
+
+        <div class="row text-center align-middle questions">
+        </div>
+
+    </div>
+
+    <!-- Show question -->
+    <div class="modal fade" id="question-modal" tabindex="-1" role="dialog" aria-labelledby="question-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="question-modal-title"></h2>
+                </div>
+                <div class="modal-body">
+                    <h1 class='question-text'></h1>
+                    <div class="p-3"></div>
+                    <div class="collapse" id="answer">
+                        <div class="answer-text p-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="done" class="btn btn-outline-success">Done</button>
+                    <button type="button" id="show-answer" class="btn btn-outline-primary">Show Answer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load game data dialog -->
+    <div class="modal fade" id="load-game-data-modal" tabindex="-1" role="dialog" aria-labelledby="load-game-data-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="load-game-data-modal-title">Choose Game Data File</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="file" id="load-game-data-file" accept=".json">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" id="load-game-data-btn" class="btn btn-outline-info">Load</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load game data dialog -->
+    <div class="modal fade" id="options-modal" tabindex="-1" role="dialog" aria-labelledby="options-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="options-modal-title">Options</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="timer-seconds-lbl">Seconds On Question Timer</span>
+                        </div>
+                        <input type="number" id="timer-seconds-input" class="form-control" aria-label="Seconds on question timer" aria-describedby="timer-seconds-lbl"
+                            value="30">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" checked id="timer-autostart-chk">
+                        <label class="form-check-label" for="timer-autostart-chk">
+                            Timer Auto Start
+                        </label>
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="category-max-questions-lbl">Max Questions Per Category</span>
+                        </div>
+                        <input type="number" id="category-max-questions-input" class="form-control" aria-label="Category max questions" aria-describedby="category-max-questions-lbl"
+                            value="10">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" checked id="sound-chk">
+                        <label class="form-check-label" for="sound-chk">
+                            Enable Sounds
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success" data-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card timer-card" style="display: none;">
+        <div class="card-body">
+            <div class="timer">
+                <span class="block"></span>
+                <span id="time"></span>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <button type="button" id="start-timer-btn" class="btn btn-outline-success">Start</button>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" id="stop-timer-btn" class="btn btn-outline-danger">Stop</button>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" id="reset-timer-btn" class="btn btn-outline-secondary">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="loader-container">
+        <div class="loader"></div>
+        <div class="msg"></div>
+    </div>
+
+    <audio id="audio-blop">
+        <source src="sounds/blop.mp3"></source>
+    </audio>
+    <audio id="audio-open">
+        <source src="sounds/open-soda-can.mp3"></source>
+    </audio>
+    <audio id="audio-tick">
+        <source src="sounds/tick.mp3"></source>
+    </audio>
+    <audio id="audio-buzzer">
+        <source src="sounds/air-horn.mp3"></source>
+    </audio>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="trivia-game.js"></script>
+</body>
+
+</html>

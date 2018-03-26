@@ -1,0 +1,19 @@
+{
+  "name": "trivia-game",
+  "version": "0.1.0",
+  "main": "trivia-game.html",
+  "author": "Tony Vu <tokafew420@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tokafew420/trivia-game.git"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {}
+}
